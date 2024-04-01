@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#svg-turkiye-haritasi-container > svg {
+  width:57% !important;
+  margin: auto;
+}
+g[id="turkiye"] > g[data-is-election-city="false"] > path {
+  fill: gray !important;
+}
+
+g[id="turkiye"] > g[data-is-election-city="false"] > path:hover {
+  fill: darkgray !important;
+}
+
+g[id="turkiye"] > g[data-is-election-city="true"] > path {
+  fill: darkred !important;
+}
+
+g[id="turkiye"] > g[data-is-election-city="true"] > path:hover {
+  fill: orangered !important;
+}
+
+.icon-text {
+  display: flex; /* Flex container oluşturur */
+  align-items: center; /* İçerikleri dikey olarak ortalar */
+  gap: 8px; /* İkon ve metin arasında boşluk bırakır */
+}
+.icon-text svg {
+  display: block; /* SVG'nin düzgün bir şekilde görünmesini sağlar */
+}
+
+
