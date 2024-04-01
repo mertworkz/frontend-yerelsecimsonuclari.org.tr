@@ -1,2 +1,1 @@
-# yerelsecimsonuclari org tr front End
- 
+# yerelsecimsonuclari.org.tr front End
